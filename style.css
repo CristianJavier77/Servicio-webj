@@ -1,0 +1,45 @@
+.content {
+    padding: 10px;
+}
+
+body {
+    margin: 0%;
+}
+
+thead {
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #c58b44;
+
+}
+
+h1 {
+    text-align: left;
+    margin-block-start: 0px;
+    margin-block-end: 0em;
+}
+
+#formulario {
+    display: grid;
+    grid-template-columns: auto 15% 15% 15% 5%;
+    gap: 5px;
+    grid-template-rows: auto;
+    margin: 15px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(28, 162, 215);
+    box-shadow: 2px 2px 9px 4px rgb(0 0 0 / 10%);
+    box-align: center;
+    display: flow-root;
+    color: rgb(230, 231, 230);
+    font-family: monospace;
+}
+.button {border-radius: 2px;
+     background-image: linear-gradient(to left, #00da21, #e79e0c);
+
+}
